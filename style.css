@@ -1,0 +1,50 @@
+/* Sayfanın genel stil ayarları */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Sayfanın tam yüksekliği */
+    background-color: #a74ced; /* Arka plan rengini açık gri yapalım */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Times New Roman, serif;
+}
+
+/* Mesajı ortalamak için kullanılan kapsayıcı */
+.message-container {
+    text-align: center;
+}
+
+/* Mesajın stil ayarları */
+.message-container h1 {
+    font-size: 4em; /* Mesajın boyutunu büyütüyoruz */
+    color: #391852; /* Yazı rengi koyu gri */
+    margin: 0;
+	
+}
+/* Alt yazı paragrafı */
+.alt-yazi {
+    font-size: 1.2em; /* Küçük boyut */
+    color: #4a2b63; /* Uyumlu bir mor ton */
+    margin-top: 10px;
+}
+.alt-yazi {
+    max-width: 600px;     /* Yazı alanının genişliğini sınırla */
+    margin: 0 auto;       /* Otomatik olarak ortala */
+    padding: 0 20px;      /* Sağ & solda boşluk olsun */
+    text-align: center;   /* Yazıları ortala */
+}
+/* Genelde normal görünüm */
+
+/* Telefon ve küçük ekranlar */
+@media (max-width: 600px) {
+    .message-container h1 {
+        font-size: 2.5em;
+    }
+
+    .alt-yazi {
+        max-width: 90%;
+        padding: 0 10px;
+    }
+}
+
