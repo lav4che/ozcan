@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh; /* Sayfanın tam yüksekliği */
-    background-color: #a74ced; /* Arka plan rengini açık gri yapalım */
+    background-color: #000000; /* Arka plan rengini açık gri yapalım */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,14 +18,14 @@ body {
 /* Mesajın stil ayarları */
 .message-container h1 {
     font-size: 4em; /* Mesajın boyutunu büyütüyoruz */
-    color: #391852; /* Yazı rengi koyu gri */
+    color: #850000; /* Yazı rengi koyu gri */
     margin: 0;
 	
 }
 /* Alt yazı paragrafı */
 .alt-yazi {
     font-size: 1.2em; /* Küçük boyut */
-    color: #4a2b63; /* Uyumlu bir mor ton */
+    color: #850000; /* Uyumlu bir mor ton */
     margin-top: 10px;
 }
 .alt-yazi {
@@ -47,4 +47,3 @@ body {
         padding: 0 10px;
     }
 }
-
